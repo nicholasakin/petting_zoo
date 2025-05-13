@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "petting-zoo"
+version = "0.1.0"
+description = ""
+authors = ["Akin, Nicholas <nicholasakin@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10, <3.13"
+pettingzoo = "^1.25.0"
+pygame = "^2.6.1"
+pymunk = "^6.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
